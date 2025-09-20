@@ -78,7 +78,32 @@ main {
     bottom: 30px;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
 .footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     background-color: #4D4B4B;
-    
+    justify-content: space-around;
+}
+
+.footer img {
+    display: flex;
+    margin: 0 ;
+}
+
+.footer h2 {
+    color: darkorange;
+    display: flex;
+    font-family: 'Oswald';
+}
+
+.my-name {
+    display: flex;
+    justify-content: center;
+    background-color: #4D4B4B;
 }
