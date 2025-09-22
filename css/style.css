@@ -96,14 +96,65 @@ footer {
     margin: 0 ;
 }
 
+.face {
+    display: flex;
+    align-items: center;
+}
+
 .footer h2 {
     color: darkorange;
     display: flex;
     font-family: 'Oswald';
 }
 
-.my-name {
+.uespi-text {
     display: flex;
+    align-items: center;
+}
+
+.my-name {
+    color: darkorange;
+    display: flex;
+    font-family: 'Oswald';
+    font-size: 30px;
     justify-content: center;
     background-color: #4D4B4B;
+    padding-top: 20px;
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.about h2{
+    font-family: 'Oswald';
+    color: darkorange;
+    font-size: 30px;
+}
+
+.about-text p{
+    padding-bottom: 20px;
+    font-family: 'Oswald';
+    color: darkorange;
+    font-size: 40px;
+}
+
+.about-board {
+    display: grid;
+    padding: 20px 40px;
+    border: 5px solid darkorange;
+    background-color: #4D4B4B;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-family: 'Oswald';
+    font-size: 20px;
+    color: darkorange;
 }
