@@ -198,3 +198,61 @@ button {
     border-radius: 5px;
     padding: 5px;
 }
+
+.guests-field {
+    display: flex;
+    justify-content: center;
+    background-color: #4D4B4B;
+    color: darkorange;
+    font-size: 20px;
+    font-family: 'Oswald';
+    padding-bottom: 20px;
+}
+
+
+.guests {
+    display: grid;  
+    border: solid darkorange 5px;
+    background-color: #4D4B4B;
+    grid-template-columns: 1fr 1fr;
+}
+
+.figure-guest {
+    display: grid;
+    border: solid darkorange 5px;
+}
+
+.curtas-text {
+    display: flex;
+    justify-content: center;
+    background-color: #4D4B4B;
+    color: darkorange;
+    font-size: 20px;
+    font-family: 'Oswald';
+    padding-bottom: 20px;
+}
+
+.curtan {
+    display: grid;
+    border: solid darkorange 5px;
+}
+
+.curtan img {
+    height: 95%;
+    width: 100%;
+}
+
+.curtas-ex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: solid darkorange 5px;
+    background-color: #4D4B4B;
+}
+
+.curtas-ex h3{
+    background-color: #4D4B4B;
+    color: darkorange;
+    font-size: 20px;
+    font-family: 'Oswald';
+    padding-bottom: 20px;
+}
