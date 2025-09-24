@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 342px) {
+@media (min-width: 320px) and (max-width: 570px) {
     .event_name {
         width: 5px;
         padding-left: 10px;
@@ -68,10 +68,10 @@
     }
 }
 
-@media (min-width: 343px) and (max-width: 352px) {
+@media (min-width: 320px) and (max-width: 570px) {
     .event_name {
         width: 5px;
-        padding-left: 20px;
+        padding-left: 10px;
     } 
 
     nav {
@@ -79,7 +79,7 @@
     }
 
     .cor_ul {
-        padding-left: 10px;
+        padding-left: 5px;
     }
 
     ul {
@@ -103,6 +103,7 @@
         width: 100%;
     }
 
+
     .topics {
         font-size:12px;
     }
@@ -110,6 +111,15 @@
     .uls {
         width: 100%;
         margin: auto 5px
+    }
+
+    .guests {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .nolan {
+        height: 95%;
     }
 
     footer {
@@ -128,10 +138,10 @@
     }
 }
 
-@media (min-width: 353px) and (max-width: 374px) {
+@media (min-width: 320px) and (max-width: 570px) {
     .event_name {
         width: 5px;
-        padding-left: 20px;
+        padding-left: 10px;
     } 
 
     nav {
@@ -139,7 +149,7 @@
     }
 
     .cor_ul {
-        padding-left: 18px;
+        padding-left: 5px;
     }
 
     ul {
@@ -156,12 +166,13 @@
 
     .border_logo {
         display: flex;
-        width: 48%;
+        width: 50%;
     }
 
     .logo-a {
         width: 100%;
     }
+
 
     .topics {
         font-size:12px;
@@ -170,6 +181,15 @@
     .uls {
         width: 100%;
         margin: auto 5px
+    }
+
+    .guests {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .nolan {
+        height: 95%;
     }
 
     footer {
@@ -188,9 +208,10 @@
     }
 }
 
-@media (min-width: 374px) and (max-width: 536px) {
+@media (min-width: 320px) and (max-width: 570px) {
     .event_name {
         width: 5px;
+        padding-left: 10px;
     } 
 
     nav {
@@ -198,7 +219,7 @@
     }
 
     .cor_ul {
-        padding-left: 30px;
+        padding-left: 5px;
     }
 
     ul {
@@ -215,12 +236,13 @@
 
     .border_logo {
         display: flex;
-        width: 45%;
+        width: 50%;
     }
 
     .logo-a {
         width: 100%;
     }
+
 
     .topics {
         font-size:12px;
@@ -229,6 +251,15 @@
     .uls {
         width: 100%;
         margin: auto 5px
+    }
+
+    .guests {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .nolan {
+        height: 95%;
     }
 
     footer {
@@ -247,9 +278,10 @@
     }
 }
 
-@media (min-width: 536px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 570px) {
     .event_name {
         width: 5px;
+        padding-left: 10px;
     } 
 
     nav {
@@ -257,7 +289,7 @@
     }
 
     .cor_ul {
-        padding-left: 30px;
+        padding-left: 5px;
     }
 
     ul {
@@ -274,12 +306,13 @@
 
     .border_logo {
         display: flex;
-        width: 45%;
+        width: 50%;
     }
 
     .logo-a {
         width: 100%;
     }
+
 
     .topics {
         font-size:12px;
@@ -288,6 +321,15 @@
     .uls {
         width: 100%;
         margin: auto 5px
+    }
+
+    .guests {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .nolan {
+        height: 95%;
     }
 
     footer {
@@ -306,43 +348,226 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 800px) {
-    .banner {
-        margin: 0;
-    }
+@media (min-width: 320px) and (max-width: 570px) {
+    .event_name {
+        width: 5px;
+        padding-left: 10px;
+    } 
 
-    main {
-        margin: 0px;
-    }
-
-    body {
-        margin: 0;
+    nav {
+        display: grid;
     }
 
     .cor_ul {
-        font-size: 15px;
-    }
-}
-
-@media (min-width: 800px) and (max-width: 1024px) {
-    .banner {
-        margin: 0;
+        padding-left: 5px;
     }
 
-    main {
-        margin: 0px;
+    ul {
+        margin: 10px;
     }
 
-    body {
-        margin: 0;
+    .uls {
+        justify-content: space-around;
     }
 
+    .event-name {display: grid;
+        padding-left: 30px;
+    }
 
-    .banner-picture {
+    .border_logo {
+        display: flex;
+        width: 50%;
+    }
+
+    .logo-a {
         width: 100%;
     }
 
-    .cor_ul {
+
+    .topics {
+        font-size:12px;
+    }
+
+    .uls {
+        width: 100%;
+        margin: auto 5px
+    }
+
+    .guests {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .nolan {
+        height: 95%;
+    }
+
+    footer {
+        display: grid;
+    }
+
+    .uespi-text {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .my-name {
+        display: flex;
+        justify-content: center;
         font-size: 20px;
     }
 }
+
+@media (min-width: 320px) and (max-width: 570px) {
+    .event_name {
+        width: 5px;
+        padding-left: 10px;
+    } 
+
+    nav {
+        display: grid;
+    }
+
+    .cor_ul {
+        padding-left: 5px;
+    }
+
+    ul {
+        margin: 10px;
+    }
+
+    .uls {
+        justify-content: space-around;
+    }
+
+    .event-name {display: grid;
+        padding-left: 30px;
+    }
+
+    .border_logo {
+        display: flex;
+        width: 50%;
+    }
+
+    .logo-a {
+        width: 100%;
+    }
+
+
+    .topics {
+        font-size:12px;
+    }
+
+    .uls {
+        width: 100%;
+        margin: auto 5px
+    }
+
+    .guests {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .nolan {
+        height: 95%;
+    }
+
+    footer {
+        display: grid;
+    }
+
+    .uespi-text {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .my-name {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 570px) and (max-width: 1400px) {
+    .event_name {
+        width: 5px;
+        padding-left: 10px;
+    } 
+
+    nav {
+        display: grid;
+    }
+
+    .cor_ul {
+        padding-left: 5px;
+    }
+
+    ul {
+        margin: 10px;
+    }
+
+    .uls {
+        justify-content: space-around;
+    }
+
+    .event-name {display: grid;
+        padding-left: 30px;
+    }
+
+    .border_logo {
+        display: flex;
+        width: 50%;
+    }
+
+    .logo-a {
+        width: 100%;
+    }
+
+
+    .topics {
+        font-size:12px;
+    }
+
+    .uls {
+        width: 100%;
+        margin: auto 5px
+    }
+
+    .guests {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .claudia {
+        height: 100%;
+    }
+
+    .fig1 {
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+
+    .fig2 {
+    }
+
+    .nolan {
+        height: 76%;
+    }
+
+    footer {
+        display: grid;
+    }
+
+    .uespi-text {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .my-name {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+}
+
